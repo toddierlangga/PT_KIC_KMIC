@@ -1332,7 +1332,8 @@ html {
 
 /* Larger, centered company identities */
 .site-header {
-  position: relative;
+  position: sticky;
+  top: 0;
 }
 .header-inner {
   grid-template-columns: 1fr 1fr;
