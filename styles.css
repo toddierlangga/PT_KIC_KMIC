@@ -1050,13 +1050,14 @@ footer {
   color: var(--muted);
 }
 .drone-thumbnails {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+  aspect-ratio: 2.34;
   gap: 7px;
   margin-top: 14px;
 }
 .drone-thumbnails button {
-  width: calc((100% - 14px) / 3);
   padding: 2px;
   border: 2px solid transparent;
   background: white;
@@ -1067,7 +1068,7 @@ footer {
 }
 .drone-thumbnails img {
   width: 100%;
-  aspect-ratio: 1.56;
+  height: 100%;
   object-fit: cover;
 }
 #drone-dialog {
@@ -1115,9 +1116,6 @@ footer {
   }
   .drone-photo-button img {
     max-height: 400px;
-  }
-  .drone-thumbnails button {
-    width: 85px;
   }
   .drone-heading {
     grid-template-columns: 1fr;
@@ -1369,7 +1367,7 @@ html {
   text-align: center;
 }
 .brand.kic {
-  gap: 8px;
+  gap: 4px;
 }
 .map-montage {
   grid-template-columns: repeat(3, minmax(0, 1fr));
