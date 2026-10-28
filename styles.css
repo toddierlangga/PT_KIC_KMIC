@@ -317,6 +317,16 @@ h1 {
 .location-copy p {
   margin: 0 0 18px;
 }
+.trade-zone {
+  break-inside: avoid;
+}
+.trade-zone p {
+  margin-bottom: 4px;
+}
+.trade-zone ul {
+  margin: 0;
+  padding-left: 20px;
+}
 .partnership-band {
   background: var(--deep);
   padding: 26px 42px 29px;
@@ -1367,7 +1377,7 @@ html {
   text-align: center;
 }
 .brand.kic {
-  gap: 4px;
+  gap: 1px;
 }
 .map-montage {
   grid-template-columns: repeat(3, minmax(0, 1fr));
