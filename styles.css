@@ -1340,7 +1340,7 @@ html {
 
 /* Larger, centered company identities */
 .site-header {
-  position: sticky;
+  position: static;
   top: 0;
 }
 .header-inner {
