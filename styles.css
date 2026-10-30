@@ -1437,3 +1437,58 @@ html {
     padding-top: 28px;
   }
 }
+.general-info-section {
+  padding-bottom: 75px;
+}
+.general-info-section .section-heading h2 {
+  text-transform: capitalize;
+}
+.general-info-table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #59615f;
+  line-height: 1.55;
+}
+.general-info-table tr {
+  border-bottom: 1px solid #aeb8b3;
+}
+.general-info-table th,
+.general-info-table td {
+  padding: 6px 20px;
+  text-align: left;
+  vertical-align: top;
+  font-weight: 400;
+}
+.general-info-table th {
+  width: 32%;
+}
+.general-info-table td:first-of-type {
+  width: 18px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.general-info-table .table-title {
+  background: var(--green);
+  color: white;
+  border: 0;
+}
+.general-info-table .table-title th,
+.general-info-table .table-title td {
+  font-weight: 700;
+}
+@media (max-width: 600px) {
+  .general-info-section {
+    padding-bottom: 45px;
+  }
+  .general-info-table th,
+  .general-info-table td {
+    padding: 8px 10px;
+  }
+  .general-info-table th {
+    width: 34%;
+  }
+  .general-info-table td:first-of-type {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
