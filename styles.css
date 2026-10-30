@@ -1476,6 +1476,22 @@ html {
 .general-info-table .table-title td {
   font-weight: 700;
 }
+.current-status-table .table-title th {
+  width: auto;
+}
+.current-status-table td.status-description {
+  width: auto;
+  padding: 10px 20px;
+}
+.current-status-table tr.status-detail td.status-description {
+  text-align: justify;
+}
+.current-status-table .status-category th {
+  font-weight: 700;
+}
+.current-status-table .status-detail th {
+  padding-left: 48px;
+}
 @media (max-width: 600px) {
   .general-info-section {
     padding-bottom: 45px;
@@ -1490,5 +1506,11 @@ html {
   .general-info-table td:first-of-type {
     padding-left: 0;
     padding-right: 0;
+  }
+  .current-status-table td.status-description {
+    padding: 10px;
+  }
+  .current-status-table .status-detail th {
+    padding-left: 24px;
   }
 }
